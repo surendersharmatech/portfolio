@@ -3,10 +3,10 @@ on:
     push:
         branches:
             - main
-            - 'feature/**'
-        paths-ignore:
-            - '.github/workflows/*'  
-            - README.md  
+           # - 'feature/**'
+       # paths-ignore:
+        #    - '.github/workflows/*'  
+         #   - README.md  
     workflow_dispatch:        
 jobs:
     build: 
